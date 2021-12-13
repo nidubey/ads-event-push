@@ -4,4 +4,8 @@
 https://segment.atlassian.net/wiki/spaces/PERSONAS/pages/1687683645/Testing+Batch+Integrations
 
 ## To push the event run:
+
+Prereq:
+run `robo sshuttle` before running the command below.
+
 go run main.go --writeKey={write_key_from_your_segment_source} --numUsers=10 --maxConcurrent=1 --env=stage --eventType=track --debug=true
