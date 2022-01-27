@@ -15,6 +15,7 @@ import (
 const (
 	stageUrl = "https://api.segment.build/v1/track"
 	prodUrl  = "https://api.segment.io/v1/track"
+	euProdUrl = "https://tracking-api.euw1.segment.com"
 )
 
 var (
